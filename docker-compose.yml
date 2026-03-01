@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  backend:
+    build: 
+      context: ./backend
+    ports:
+      - "3001:3001"
+    # For a production app we'd map a volume for SQLite, e.g. - sqlite_data:/app
+    
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend

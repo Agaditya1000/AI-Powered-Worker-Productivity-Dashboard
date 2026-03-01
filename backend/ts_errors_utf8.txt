@@ -1,0 +1,14 @@
+﻿database.ts(1,8): error TS2613: Module '"C:/Users/agadi/Desktop/AI-Powered Worker Productivity Dashboard/backend/node_modules/sqlite3/lib/sqlite3"' has no default export. Did you mean to use 'import { sqlite3 } from "C:/Users/agadi/Desktop/AI-Powered Worker Productivity Dashboard/backend/node_modules/sqlite3/lib/sqlite3"' instead?
+database.ts(3,8): error TS1259: Module '"path"' can only be default-imported using the 'esModuleInterop' flag
+index.ts(1,8): error TS1259: Module '"C:/Users/agadi/Desktop/AI-Powered Worker Productivity Dashboard/backend/node_modules/@types/express/index"' can only be default-imported using the 'esModuleInterop' flag
+index.ts(2,8): error TS1259: Module '"C:/Users/agadi/Desktop/AI-Powered Worker Productivity Dashboard/backend/node_modules/@types/cors/index"' can only be default-imported using the 'esModuleInterop' flag
+index.ts(16,32): error TS7006: Parameter 'req' implicitly has an 'any' type.
+index.ts(16,37): error TS7006: Parameter 'res' implicitly has an 'any' type.
+index.ts(35,30): error TS7006: Parameter 'req' implicitly has an 'any' type.
+index.ts(35,35): error TS7006: Parameter 'res' implicitly has an 'any' type.
+index.ts(107,40): error TS7006: Parameter 'req' implicitly has an 'any' type.
+index.ts(107,45): error TS7006: Parameter 'res' implicitly has an 'any' type.
+index.ts(112,45): error TS7006: Parameter 'req' implicitly has an 'any' type.
+index.ts(112,50): error TS7006: Parameter 'res' implicitly has an 'any' type.
+index.ts(117,40): error TS7006: Parameter 'req' implicitly has an 'any' type.
+index.ts(117,45): error TS7006: Parameter 'res' implicitly has an 'any' type.
