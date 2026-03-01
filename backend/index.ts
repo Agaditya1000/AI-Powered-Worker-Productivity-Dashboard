@@ -10,8 +10,15 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-// Init DB
-initDb().catch(console.error);
+// Init DB and seed if empty
+initDb().then(async () => {
+    const db = await getDb();
+    const result = await db.get('SELECT COUNT(*) as count FROM workers');
+    if (result && result.count === 0) {
+        console.log('Database is empty. Seeding initial data...');
+        await seedDatabase();
+    }
+}).catch(console.error);
 
 app.post('/api/events', async (req, res) => {
     try {
