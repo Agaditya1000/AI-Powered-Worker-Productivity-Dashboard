@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
-// In production (Docker Nginx), we use relative path. In dev, we use localhost.
-const API_BASE = import.meta.env.PROD ? '/api' : 'http://localhost:3001/api';
+// In production (e.g. Vercel), we hit the Render backend. In dev, we use localhost.
+const API_BASE = import.meta.env.PROD ? 'https://ai-powered-worker-productivity-dashboard-ur16.onrender.com/api' : 'http://localhost:3001/api';
 
 export const useMetrics = () => {
     const [factory, setFactory] = useState<any>(null);
