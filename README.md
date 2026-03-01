@@ -4,6 +4,7 @@ A production-ready full-stack web application designed to ingest AI-generated ev
 
 ## 🌐 Live Demonstrations
 
+- **GitHub Repository**: [https://github.com/Agaditya1000/AI-Powered-Worker-Productivity-Dashboard](https://github.com/Agaditya1000/AI-Powered-Worker-Productivity-Dashboard)
 - **Frontend Application (Vercel)**: [https://ai-powered-worker-productivity-dash-bice.vercel.app/](https://ai-powered-worker-productivity-dash-bice.vercel.app/)
 - **Backend API Server (Render)**: [https://ai-powered-worker-productivity-dashboard-ur16.onrender.com/](https://ai-powered-worker-productivity-dashboard-ur16.onrender.com/)
 
