@@ -2,6 +2,13 @@
 
 A production-ready full-stack web application designed to ingest AI-generated events from computer-vision CCTV cameras, compute productivity metrics, and display them in a real-time React dashboard.
 
+## 🌐 Live Demonstrations
+
+- **Frontend Application (Vercel)**: [https://ai-powered-worker-productivity-dash-bice.vercel.app/](https://ai-powered-worker-productivity-dash-bice.vercel.app/)
+- **Backend API Server (Render)**: [https://ai-powered-worker-productivity-dashboard-ur16.onrender.com/](https://ai-powered-worker-productivity-dashboard-ur16.onrender.com/)
+
+*(Wait up to 30 seconds for initial backend sleep cycles to wake up on the first load for free Render tiers).*
+
 ## 🚀 Quick Start (Local Deployment)
 
 This application is fully containerized with Docker.
