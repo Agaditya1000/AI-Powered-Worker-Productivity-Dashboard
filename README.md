@@ -9,9 +9,9 @@ A production-ready full-stack web application designed to ingest AI-generated ev
 
 *(Wait up to 30 seconds for initial backend sleep cycles to wake up on the first load for free Render tiers).*
 
-## 🚀 Quick Start (Local Deployment)
+## 🚀 Quick Start (Local Deployment with Docker)
 
-This application is fully containerized with Docker.
+This application is fully containerized with Docker for easy, one-click execution.
 
 1. Ensure Docker and Docker Compose are installed.
 2. Clone this repository.
@@ -25,6 +25,28 @@ docker-compose up --build
 - **Backend API**: `http://localhost:3001/api`
 
 *Note: The database is automatically seeded upon start. If you wish to refresh the dummy data, you can send a POST request to `http://localhost:3001/api/seed`.*
+
+---
+
+## 💻 Manual Local Development (Without Docker)
+
+If you prefer to run and edit the projects natively on your machine without Docker, you will need two separate terminal windows.
+
+**1. Start the Backend API (Terminal 1)**
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+**2. Start the Frontend Dashboard (Terminal 2)**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend will run at `http://localhost:5173` and automatically connect to your native backend at `http://localhost:3001`.
 
 ---
 
